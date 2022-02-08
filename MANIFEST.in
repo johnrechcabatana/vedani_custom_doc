@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include vedani_custom_doc *.css
+recursive-include vedani_custom_doc *.csv
+recursive-include vedani_custom_doc *.html
+recursive-include vedani_custom_doc *.ico
+recursive-include vedani_custom_doc *.js
+recursive-include vedani_custom_doc *.json
+recursive-include vedani_custom_doc *.md
+recursive-include vedani_custom_doc *.png
+recursive-include vedani_custom_doc *.py
+recursive-include vedani_custom_doc *.svg
+recursive-include vedani_custom_doc *.txt
+recursive-exclude vedani_custom_doc *.pyc
